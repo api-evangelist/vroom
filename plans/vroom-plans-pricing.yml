@@ -1,0 +1,32 @@
+name: Vroom Plans and Pricing
+description: Vroom, Inc. operated as an e-commerce used vehicle retailer until January 2024, when it ceased direct vehicle sales operations. The company pivoted to focus on its subsidiaries United Auto Credit Corporation (UACC) and CarStory. Pricing for B2B dealer integrations through UACC and CarStory analytics services are available via direct sales engagement; no self-serve public pricing tiers are published.
+url: https://www.vroom.com
+plans:
+  - name: UACC Dealer Partner Program
+    description: Dealer financing integration through United Auto Credit Corporation for non-prime auto lending. Access includes 24/7 application submission, instant credit decisions, 50-state compliant contract printing, live funding updates, and live chat with the UACC funding team.
+    contact: https://www.unitedautocredit.net/dealerpartners.aspx
+    pricing: Contact sales — pricing negotiated per dealer agreement
+    features:
+      - 24/7 dealer portal access (The Fast Lane)
+      - Instant credit approvals for non-prime borrowers
+      - 50-state compliant contract printing
+      - Live funding status updates
+      - LivePerson chat with funding department
+      - Up to $35,000 vehicle financing per unit
+      - Network of 7,300+ dealership customers
+
+  - name: CarStory Dealer Analytics
+    description: AI-powered inventory analytics and digital retail services for automotive dealers. Provides appraisal intelligence, market promotion data, and profit-tracking tools.
+    contact: https://www.carstory.ai
+    pricing: Contact sales (888-685-8227 or sales@carstory.ai)
+    features:
+      - Appraise — AI-driven vehicle appraisal for improved margins
+      - Promote — market and vehicle intelligence for customer conversion
+      - Track — profit optimization and loss prevention
+      - Machine learning informed by 7M+ vehicle listings per day
+      - 18M+ consumer sessions per month analytics
+notes:
+  - Vroom ceased direct-to-consumer e-commerce vehicle sales on January 22, 2024.
+  - The company filed Chapter 11 bankruptcy in November 2024 and exited January 15, 2025.
+  - Remaining commercial operations center on UACC and CarStory B2B services.
+  - No public self-serve API pricing tiers are currently published.

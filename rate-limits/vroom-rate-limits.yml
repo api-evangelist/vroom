@@ -1,0 +1,23 @@
+name: Vroom Rate Limits
+description: Vroom, Inc. does not publish public API rate limit documentation. The company's consumer-facing e-commerce platform shut down in January 2024. B2B integrations through UACC (dealer financing portal) and CarStory (analytics platform) operate under dealer partnership agreements with rate and usage limits defined contractually. The following reflects publicly known or inferable limits based on available documentation.
+url: https://www.vroom.com
+limits:
+  - service: UACC Dealer Portal (The Fast Lane)
+    type: Portal Access
+    notes: Available 24/7 per dealer agreement; rate limits not publicly disclosed. Governed by dealer partner terms of service.
+    contact: https://www.unitedautocredit.net/dealerpartners.aspx
+
+  - service: CarStory Analytics Platform
+    type: Analytics / Data API
+    notes: Rate limits not publicly disclosed. Access is provisioned per dealer or enterprise contract. Consult CarStory sales for integration SLAs.
+    contact: https://www.carstory.ai
+
+  - service: Frazer DMS Integration (UACC)
+    type: DMS Integration
+    notes: UACC integrates with Frazer Dealer Management Software. Integration limits governed by Frazer/UACC partnership terms.
+    reference: https://www.frazer.com/integrations-uacc
+
+notes:
+  - No public rate-limit documentation has been found for any Vroom, UACC, or CarStory API surface.
+  - Vroom's direct e-commerce vehicle sales API (if any existed) is no longer operational.
+  - All current B2B services require a dealer or enterprise agreement before API/portal access is granted.

@@ -1,0 +1,78 @@
+aid: vroom
+name: Vroom
+description: Vroom, Inc. is a Houston-based automotive technology company that operated as an online used vehicle retailer offering no-haggle pricing, nationwide home delivery, and digital financing. In January 2024 Vroom ceased direct-to-consumer e-commerce vehicle sales and pivoted to focus on its two B2B subsidiaries — United Auto Credit Corporation (UACC), a non-prime automotive finance lender serving 7,300+ dealerships, and CarStory, an AI-powered analytics and digital retail services platform processing over 7 million vehicle listings per day. The company exited Chapter 11 bankruptcy protection in January 2025. Current API-adjacent services include the UACC dealer portal for financing origination and the CarStory analytics platform for inventory appraisal, promotion, and profit tracking — both available to dealer partners under negotiated B2B agreements.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/vroom/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Automotive
+  - Used Vehicles
+  - Vehicle Financing
+  - Auto Finance
+  - Dealer Analytics
+  - AI Analytics
+  - Non-Prime Lending
+  - Vehicle Inventory
+apis:
+  - aid: vroom:uacc-dealer-portal
+    name: UACC Dealer Financing Portal
+    description: United Auto Credit Corporation dealer financing integration providing non-prime auto lending origination, 24/7 application access, instant credit decisions, and contract printing for dealership partners across the United States.
+    humanURL: https://www.unitedautocredit.net/dealerpartners.aspx
+    baseURL: https://www.unitedautocredit.net
+    tags:
+      - Auto Financing
+      - Non-Prime Lending
+      - Dealer Portal
+      - Credit Applications
+    properties:
+      - type: Documentation
+        url: https://www.unitedautocredit.net/dealers/faq
+      - type: DealerPartners
+        url: https://www.unitedautocredit.net/dealerpartners.aspx
+
+  - aid: vroom:carstory-analytics
+    name: CarStory Automotive Analytics Platform
+    description: AI-powered automotive retail analytics platform providing vehicle appraisal intelligence, market promotion data, and profit optimization tools for dealerships, leveraging machine learning across 7 million vehicle listings per day and 18 million consumer sessions per month.
+    humanURL: https://www.carstory.ai
+    baseURL: https://dealer.carstory.ai
+    tags:
+      - Automotive Analytics
+      - AI
+      - Vehicle Appraisal
+      - Inventory Management
+      - Dealer Tools
+    properties:
+      - type: Documentation
+        url: https://www.carstory.ai
+
+common:
+  - type: Website
+    url: https://www.vroom.com
+  - type: InvestorRelations
+    url: https://ir.vroom.com
+  - type: Documentation
+    url: https://www.unitedautocredit.net/dealers/faq
+  - type: GitHubOrg
+    url: https://github.com/vroom-project
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/vroom
+  - type: Blog
+    url: https://ir.vroom.com/news-events/press-releases/
+  - type: Pricing
+    url: https://www.unitedautocredit.net/dealerpartners.aspx
+  - type: StatusPage
+    url: https://ir.vroom.com
+  - type: X
+    url: https://twitter.com/vroomcars
+  - type: Plans
+    url: plans/vroom-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/vroom-rate-limits.yml
+  - type: FinOps
+    url: finops/vroom-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

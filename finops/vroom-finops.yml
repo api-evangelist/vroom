@@ -1,0 +1,27 @@
+name: Vroom FinOps
+description: Financial operations and cost management considerations for integrating with Vroom, Inc. services. Vroom ceased consumer e-commerce vehicle sales in January 2024 and exited Chapter 11 bankruptcy in January 2025. Current financial operations relevant to API consumers center on the UACC dealer financing network and CarStory analytics platform, both of which operate under negotiated B2B contracts.
+url: https://www.vroom.com
+considerations:
+  - category: Contract-Based Pricing
+    description: UACC dealer financing and CarStory analytics pricing are not publicly listed. Budget planning requires engaging sales teams directly for quotes. Contracts are typically structured per dealer location or enterprise account volume.
+    contact_uacc: https://www.unitedautocredit.net/dealerpartners.aspx
+    contact_carstory: https://www.carstory.ai
+
+  - category: Financing Volume Limits
+    description: UACC finances up to $35,000 per vehicle transaction (retail and commercial, commercial up to 14,500 lbs. GVWR). Cost of capital and dealer reserve structures are negotiated at the time of dealer agreement execution.
+
+  - category: Integration Cost
+    description: Dealer management system integrations (e.g., Frazer DMS) may carry integration or activation fees. Consult Frazer or UACC directly for integration cost details.
+    reference: https://www.frazer.com/integrations-uacc
+
+  - category: Business Continuity Risk
+    description: Vroom, Inc. filed for Chapter 11 bankruptcy in November 2024 and emerged January 15, 2025. Prospective API/integration partners should perform due diligence on the financial stability of UACC and CarStory as operating units before committing to long-term integrations.
+    investor_relations: https://ir.vroom.com
+
+  - category: No Public SaaS Pricing
+    description: There are no self-serve, metered, or tiered SaaS API products publicly available from Vroom, UACC, or CarStory. All cost structures are enterprise/dealer-negotiated.
+
+notes:
+  - Vroom (NASDAQ: VRM) shares peaked at $65 in August 2020; the company delisted following bankruptcy proceedings.
+  - UACC serves 7,300+ dealerships; CarStory processes 7M+ vehicle listings and 18M+ consumer sessions per month.
+  - Both subsidiaries are positioned as revenue-generating units for the post-bankruptcy Vroom entity.
