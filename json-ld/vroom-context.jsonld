@@ -1,0 +1,218 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "vroom": "https://www.vroom.com/schemas/",
+    "uacc": "https://www.unitedautocredit.net/schemas/",
+    "carstory": "https://www.carstory.ai/schemas/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "Vehicle": {
+      "@id": "schema:Vehicle",
+      "@context": {
+        "vin": "vroom:vin",
+        "make": "schema:brand",
+        "model": "schema:model",
+        "year": {
+          "@id": "schema:vehicleModelDate",
+          "@type": "xsd:integer"
+        },
+        "mileage": {
+          "@id": "schema:mileageFromOdometer",
+          "@type": "xsd:integer"
+        },
+        "condition": "vroom:condition",
+        "listingPrice": "schema:price",
+        "priceCurrency": "schema:priceCurrency",
+        "stockNumber": "vroom:stockNumber",
+        "trim": "vroom:trim",
+        "exteriorColor": "vroom:exteriorColor",
+        "interiorColor": "vroom:interiorColor",
+        "driveType": "vroom:driveType",
+        "transmission": "vroom:transmission",
+        "fuelType": "vroom:fuelType",
+        "bodyStyle": "schema:bodyType",
+        "dateAdded": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "CreditApplication": {
+      "@id": "uacc:CreditApplication",
+      "@context": {
+        "applicationId": "uacc:applicationId",
+        "dealerId": "uacc:dealerId",
+        "applicantName": "schema:name",
+        "requestedAmount": {
+          "@id": "uacc:requestedAmount",
+          "@type": "xsd:decimal"
+        },
+        "vehicleYear": {
+          "@id": "uacc:vehicleYear",
+          "@type": "xsd:integer"
+        },
+        "vehicleMake": "uacc:vehicleMake",
+        "vehicleModel": "uacc:vehicleModel",
+        "vehicleVin": "uacc:vehicleVin",
+        "status": "uacc:applicationStatus",
+        "creditTier": "uacc:creditTier",
+        "approvedAmount": {
+          "@id": "uacc:approvedAmount",
+          "@type": "xsd:decimal"
+        },
+        "interestRate": {
+          "@id": "uacc:interestRate",
+          "@type": "xsd:decimal"
+        },
+        "termMonths": {
+          "@id": "uacc:termMonths",
+          "@type": "xsd:integer"
+        },
+        "monthlyPayment": {
+          "@id": "uacc:monthlyPayment",
+          "@type": "xsd:decimal"
+        },
+        "submittedAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        },
+        "decisionAt": {
+          "@id": "uacc:decisionAt",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "DealerPartner": {
+      "@id": "uacc:DealerPartner",
+      "@context": {
+        "dealerId": "uacc:dealerId",
+        "dealerName": "schema:name",
+        "dealershipAddress": "schema:address",
+        "phone": "schema:telephone",
+        "email": "schema:email",
+        "portalUsername": "uacc:portalUsername",
+        "enrollmentDate": {
+          "@id": "uacc:enrollmentDate",
+          "@type": "xsd:date"
+        },
+        "status": "uacc:dealerStatus",
+        "region": "uacc:region"
+      }
+    },
+
+    "VehicleAppraisal": {
+      "@id": "carstory:VehicleAppraisal",
+      "@context": {
+        "appraisalId": "carstory:appraisalId",
+        "vin": "carstory:vin",
+        "make": "schema:brand",
+        "model": "schema:model",
+        "year": {
+          "@id": "schema:vehicleModelDate",
+          "@type": "xsd:integer"
+        },
+        "mileage": {
+          "@id": "schema:mileageFromOdometer",
+          "@type": "xsd:integer"
+        },
+        "estimatedValue": {
+          "@id": "carstory:estimatedValue",
+          "@type": "xsd:decimal"
+        },
+        "marketValue": {
+          "@id": "carstory:marketValue",
+          "@type": "xsd:decimal"
+        },
+        "confidenceScore": {
+          "@id": "carstory:confidenceScore",
+          "@type": "xsd:decimal"
+        },
+        "daysToSell": {
+          "@id": "carstory:daysToSell",
+          "@type": "xsd:integer"
+        },
+        "pricePosition": "carstory:pricePosition",
+        "appraisedAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "InventoryListing": {
+      "@id": "carstory:InventoryListing",
+      "@context": {
+        "listingId": "carstory:listingId",
+        "dealerId": "carstory:dealerId",
+        "vin": "carstory:vin",
+        "make": "schema:brand",
+        "model": "schema:model",
+        "year": {
+          "@id": "schema:vehicleModelDate",
+          "@type": "xsd:integer"
+        },
+        "askingPrice": "schema:price",
+        "suggestedPrice": "carstory:suggestedPrice",
+        "marketDaysSupply": {
+          "@id": "carstory:marketDaysSupply",
+          "@type": "xsd:integer"
+        },
+        "similarListings": {
+          "@id": "carstory:similarListings",
+          "@type": "xsd:integer"
+        },
+        "demandScore": {
+          "@id": "carstory:demandScore",
+          "@type": "xsd:decimal"
+        },
+        "profitOpportunity": {
+          "@id": "carstory:profitOpportunity",
+          "@type": "xsd:decimal"
+        },
+        "listedAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        },
+        "updatedAt": {
+          "@id": "dcterms:modified",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "MarketIntelligence": {
+      "@id": "carstory:MarketIntelligence",
+      "@context": {
+        "reportId": "carstory:reportId",
+        "market": "carstory:market",
+        "segmentMake": "carstory:segmentMake",
+        "segmentModel": "carstory:segmentModel",
+        "averageDaysOnMarket": {
+          "@id": "carstory:averageDaysOnMarket",
+          "@type": "xsd:integer"
+        },
+        "averageListPrice": {
+          "@id": "carstory:averageListPrice",
+          "@type": "xsd:decimal"
+        },
+        "totalActiveListings": {
+          "@id": "carstory:totalActiveListings",
+          "@type": "xsd:integer"
+        },
+        "demandIndex": {
+          "@id": "carstory:demandIndex",
+          "@type": "xsd:decimal"
+        },
+        "pricetrend": "carstory:priceTrend",
+        "generatedAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    }
+  }
+}
