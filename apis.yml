@@ -2,7 +2,7 @@ aid: vroom
 name: Vroom
 description: Vroom, Inc. is a Houston-based automotive technology company that operated as an online used vehicle retailer offering no-haggle pricing, nationwide home delivery, and digital financing. In January 2024 Vroom ceased direct-to-consumer e-commerce vehicle sales and pivoted to focus on its two B2B subsidiaries — United Auto Credit Corporation (UACC), a non-prime automotive finance lender serving 7,300+ dealerships, and CarStory, an AI-powered analytics and digital retail services platform processing over 7 million vehicle listings per day. The company exited Chapter 11 bankruptcy protection in January 2025. Current API-adjacent services include the UACC dealer portal for financing origination and the CarStory analytics platform for inventory appraisal, promotion, and profit tracking — both available to dealer partners under negotiated B2B agreements.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/vroom/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
