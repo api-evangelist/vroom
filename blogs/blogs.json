@@ -3,16 +3,10 @@
   "feeds": [
     {
       "source": "https://ir.vroom.com/news-events/press-releases/",
-      "error": "timeout"
-    },
-    {
-      "source": "https://www.linkedin.com/company/vroom",
-      "feed_url": "https://www.linkedin.com/company/vroom",
-      "title": "",
       "saved": 0,
-      "method": "none"
+      "error": "Timeout after 2 attempts"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:20:41Z"
 }
