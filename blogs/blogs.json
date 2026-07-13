@@ -2,11 +2,13 @@
   "repo": "vroom",
   "feeds": [
     {
-      "source": "https://ir.vroom.com/news-events/press-releases/",
+      "source": "https://www.linkedin.com/company/vroom",
+      "feed_url": "https://www.linkedin.com/company/vroom",
+      "title": "",
       "saved": 0,
-      "error": "Timeout after 2 attempts"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T13:20:41Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
