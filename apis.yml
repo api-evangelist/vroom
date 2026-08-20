@@ -52,6 +52,12 @@ apis:
     baseURL: https://dealer.carstory.ai
     tags:
       - Automotive Analytics
+      - Artificial Intelligence
+      - Vehicle Appraisal
+      - Inventory Management
+      - Dealer Tools
+    tags_raw:
+      - Automotive Analytics
       - AI
       - Vehicle Appraisal
       - Inventory Management
