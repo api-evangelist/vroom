@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Vroom Rate Limits
 description: Vroom, Inc. does not publish public API rate limit documentation. The company's consumer-facing e-commerce platform shut down in January 2024. B2B integrations through UACC (dealer financing portal) and CarStory (analytics platform) operate under dealer partnership agreements with rate and usage limits defined contractually. The following reflects publicly known or inferable limits based on available documentation.
 url: https://www.vroom.com
