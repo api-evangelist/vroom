@@ -34,3 +34,22 @@ notes:
   - The company filed Chapter 11 bankruptcy in November 2024 and exited January 15, 2025.
   - Remaining commercial operations center on UACC and CarStory B2B services.
   - No public self-serve API pricing tiers are currently published.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: UACC Dealer Partner Program
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: CarStory Dealer Analytics
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
